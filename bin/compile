@@ -82,7 +82,7 @@ fi
 speak "Running Stack."
 cd "$BUILD_DIR"
 $STACK_EXE setup
-$STACK_EXE build --fast
+$STACK_EXE build
 
 speak "Making Stack binaries available."
 mkdir -p "$BUILD_DIR/bin"
